@@ -232,7 +232,7 @@ var data = (function(){
 
   function getData(){
     // Get data from API
-    var url = "http://arduino-logger-chart.herokuapp.com/getData?random=" + Math.random();
+    var url = "https://arduino-logger-chart.herokuapp.com/getData?random=" + Math.random();
 
     return $.getJSON(url);
   }
